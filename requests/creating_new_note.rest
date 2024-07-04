@@ -5,3 +5,13 @@ Content-Type: application/json
 "content": "VS code rest client is a pretty handy tool",
 "important": true
 }
+
+###
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1sdXVra2FpIiwiaWQiOiI2NTllMWMwZmQzNTdlNTQwNDUzMTAyNzYiLCJpYXQiOjE3MDQ4NjA4MDR9.HpIjdufkFbqg3esTyAcvhC2kRE7jmieonCMdmlyh3Iw
+
+{
+  "content": "Set Authorization header",
+  "important": true
+}
